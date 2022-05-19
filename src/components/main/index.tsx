@@ -5,7 +5,7 @@ type MainProps = {
 }
 
 const Main: FC<MainProps> = ({ title = 'Addi' }) => {
-  return <h2>{title}</h2>
+  return <h1>{title}</h1>
 }
 
 export default Main
