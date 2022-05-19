@@ -1,11 +1,11 @@
 import * as S from './style'
-
+import logoImage from '@assets/sketch-logo.svg'
 const Header = () => {
+  console.log(logoImage)
   return (
     <S.Wrraper>
-      <S.Logo>
-        <h1>Add - Challenge</h1>
-      </S.Logo>
+      <S.Logo src={logoImage.src} />
+      <S.Title>Document</S.Title>
     </S.Wrraper>
   )
 }
