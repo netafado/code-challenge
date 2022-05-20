@@ -6,7 +6,7 @@ import { useRouter } from 'next/router'
 const Header = () => {
   const { artboards } = useArtBoards()
   const router = useRouter()
-  const { id } = router.query as unknown as string
+  const { id } = router?.query as unknown as string
 
   if (!artboards) return null
 
@@ -52,9 +52,9 @@ const Header = () => {
               <ArrowRight />
             </S.Button>
           </S.ArtboardControl>
-          <div style={{ width: '33%', textAlign: 'center' }}>
+          <S.titleWrapper>
             <S.Title>{artboards[id].name}</S.Title>
-          </div>
+          </S.titleWrapper>
         </>
       )}
     </S.Wrraper>

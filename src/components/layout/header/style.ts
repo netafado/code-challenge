@@ -44,3 +44,8 @@ export const Title = styled.h1`
   margin-bottom: 0;
   margin-top: 4px;
 `
+
+export const titleWrapper = styled.div`
+  text-align: center;
+  width: 33%;
+`
