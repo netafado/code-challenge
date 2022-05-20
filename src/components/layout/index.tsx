@@ -1,10 +1,10 @@
 import Header from './header'
-import Footer from './footer/Footer'
 import { FC } from 'react'
 import * as S from './style'
 type LayoutProps = {
   children: React.ReactNode
 }
+
 const Layout: FC<LayoutProps> = ({ children }) => {
   return (
     <>
@@ -12,7 +12,6 @@ const Layout: FC<LayoutProps> = ({ children }) => {
       <S.Wrraper>
         <S.MainContainer>{children}</S.MainContainer>
       </S.Wrraper>
-      <Footer />
     </>
   )
 }

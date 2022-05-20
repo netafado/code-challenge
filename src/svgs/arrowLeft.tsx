@@ -5,6 +5,7 @@ const ArrowLeft = () => (
     width="7"
     height="13"
     viewBox="0 0 7 13"
+    role="img"
   >
     <polyline
       fill="none"

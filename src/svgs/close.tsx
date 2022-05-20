@@ -1,21 +1,21 @@
 // eslint-disable-next-line react/display-name
-const ArrowRight = () => (
+const Close = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="7"
-    height="13"
-    viewBox="0 0 7 13"
+    width="11"
+    height="11"
+    viewBox="0 0 11 11"
     role="img"
   >
-    <polyline
+    <path
       fill="none"
       stroke="#000"
       strokeLinecap="round"
-      strokeLinejoin="round"
-      points=".5 12.5 6.5 6.5 .5 .5"
+      d="M3.5,13.5 L13.5,3.5 M13.5,13.5 L3.5,3.5"
       opacity=".5"
+      transform="matrix(-1 0 0 1 14 -3)"
     />
   </svg>
 )
 
-export default ArrowRight
+export default Close

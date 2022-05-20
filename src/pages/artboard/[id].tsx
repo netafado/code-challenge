@@ -1,6 +1,6 @@
 import { FC } from 'react'
-import Layout from '../components/layout'
-import ListArtboard from '@components/artboardsList'
+import Layout from '@components/layout'
+import Artboard from '@components/artboard'
 type HomeProps = {
   title: string
 }
@@ -8,7 +8,7 @@ type HomeProps = {
 const Home: FC<HomeProps> = () => {
   return (
     <Layout>
-      <ListArtboard title={''} />
+      <Artboard />
     </Layout>
   )
 }

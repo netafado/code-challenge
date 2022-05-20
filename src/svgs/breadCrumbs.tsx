@@ -1,11 +1,11 @@
 // eslint-disable-next-line react/display-name
-const ArrowLeft = () => (
+const BreadCrumbs = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
     width="7"
     height="12"
     viewBox="0 0 7 12"
+    role="img"
   >
     <defs>
       <path
@@ -30,4 +30,4 @@ const ArrowLeft = () => (
   </svg>
 )
 
-export default ArrowLeft
+export default BreadCrumbs

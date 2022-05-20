@@ -10,8 +10,4 @@ export const Wrraper = styled.main`
 
 export const MainContainer = styled.div`
   width: 100%;
-  max-width: 1200px;
-  padding: 10px;
-  background-color: white;
-  margin: 20px 0;
 `

@@ -11,6 +11,11 @@ html{
 }
 body{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: #fafafa
+  background-color: #fafafa;
+  color:#666
+}
+button{
+  border: 0;
+  background-color: white
 }
 `

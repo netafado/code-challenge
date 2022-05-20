@@ -5,6 +5,7 @@ const Logo = () => (
     width="27"
     height="25"
     viewBox="0 0 27 25"
+    role="img"
   >
     <defs>
       <path

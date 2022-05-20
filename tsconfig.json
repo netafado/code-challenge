@@ -21,7 +21,8 @@
     "jsx": "preserve",
     "paths": {
       "@assets/*": ["assets/*"],
-      "@components/*": ["components/*"]
+      "@components/*": ["components/*"],
+      "@graphql/*": ["graphql/*"]
     }
   },
   "include": [
